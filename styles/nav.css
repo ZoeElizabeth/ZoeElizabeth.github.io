@@ -1,20 +1,10 @@
-html {
-  box-sizing: border-box;
- 
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-.header {  
-  /* display:fixed; */
-  float:left;
-
-}
-
-
-@media screen 
-and (max-width: 991px) {
-
-   
+  * {
+    box-sizing: border-box; 
   }
+  
+ .title {
+/* display: flex; */
+top: 23vh;
+
+ }
