@@ -8,9 +8,13 @@
     flex-direction: row;
     margin: 0;
   }
+  .resume {
+    max-width: 700px;
+  }
   .col-1 {
-    background: #D7E8D4;
-    flex: 1;
+    background: #A4C6A5;
+    min-width: 17em;
+   
   }
   .col-2 {
     display: flex;
@@ -28,12 +32,14 @@
   header {
     background-image: url("../images/header2.png");
     background-repeat: no-repeat;
-    height: 27vh;
+    min-height: 27vh;
   }
   header, article, nav {
     padding: 1em;
   }
-
+h1, h2, h3, h4, h5 {
+  font-family: 'Poiret One', cursive;
+}
   ul {
 list-style: none;
   }

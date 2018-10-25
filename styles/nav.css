@@ -5,6 +5,18 @@
   
  .title {
 /* display: flex; */
-top: 23vh;
-
+margin-top: 8em;
+margin-left: 9em;
+margin-bottom: 2.5em;
  }
+.nametitle {
+padding-left: 1em;
+}
+ h5 {
+  font-size: 100%;
+  padding-left: 1em;
+ }
+
+ .skills, .contact {
+  padding: 0;
+}
