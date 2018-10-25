@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  overflow: scroll;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+
+  list-style: none;
+
+}
+
+.col {
+  position: fixed;
+  background: #A4C6A5;
+  width: 20em;
+  left: 0;
+  height: 100%;
+  padding: 0;
+  /* top: 283px; */
+ 
+}
+
+.col-2 {
+  /* position: fixed; */
+
+  left: 20em;
+  max-width: 60%;
+
+}
+
+
+.mediacontactinfo {
+  padding-left: 0;
+}
+
+@media screen 
+and (max-width: 991px) {
+
+.col {
+top: 255px;
+}
+
+
+   
+  }
