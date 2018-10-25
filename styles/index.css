@@ -1,6 +1,8 @@
 
   * {
     box-sizing: border-box; 
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
   }
   body {
     display: flex;
@@ -13,7 +15,7 @@
   }
   .col-1 {
     background: #A4C6A5;
-    min-width: 17em;
+    max-width: 17em;
    
   }
   .col-2 {

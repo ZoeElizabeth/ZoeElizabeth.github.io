@@ -1,6 +1,8 @@
 
   * {
     box-sizing: border-box; 
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
   }
   
  .title {
@@ -12,11 +14,12 @@ margin-bottom: 2.5em;
 .nametitle {
 padding-left: 1em;
 }
- h5 {
+ 
+.blurbtitle {
   font-size: 100%;
   padding-left: 1em;
  }
 
- .skills, .contact {
+.skills, .contact {
   padding: 0;
 }
