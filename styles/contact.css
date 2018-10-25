@@ -4,7 +4,17 @@
   }
 
 
-.fa, .glyphicon {
-padding-right: 1em;
+.glyphicon {
+  padding-right: 1em;
+ 
+}
+
+.fa {
+  padding-right: .9em;
+}
+
+
+.contact li, .skills li {
+padding: .3em;
 }
  
