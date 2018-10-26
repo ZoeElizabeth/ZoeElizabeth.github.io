@@ -12,10 +12,7 @@ display: none;
      display: none;
      visibility: hidden;
      }
-     .hidden {
-      /* visibility: show; */
-      display: block !important;
-     }
+
      .col-1 {
       display: flex;
       flex-direction: row;
