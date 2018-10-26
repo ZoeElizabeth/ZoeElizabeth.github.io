@@ -10,6 +10,32 @@
     flex-direction: row;
     margin: 0;
   }
+
+  .summary {
+    text-align: center;
+  }
+
+  .texttitle {
+    font-weight: 500;
+  }
+
+  .flex-grid {
+    display: flex;
+
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+
+  }
+
+  .flex-grid {
+    margin-bottom: 2em;
+
+  }
+
   .resume {
     max-width: 700px;
   }

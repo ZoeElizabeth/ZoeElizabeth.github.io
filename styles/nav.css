@@ -11,15 +11,26 @@ margin-top: 8em;
 margin-left: 9em;
 margin-bottom: 2.5em;
  }
+ 
 .nametitle {
-padding-left: 1em;
+  font-size: 250%;
+padding-left: .4em
 }
  
 .blurbtitle {
-  font-size: 100%;
-  padding-left: 1em;
+  font-size: 150%;
+  padding-left: 1.15em;
  }
 
 .skills, .contact {
   padding: 0;
+}
+
+nav h3 {
+margin-top: 1.5em;
+text-align: center;
+}
+
+.profilepic  {
+height: 20em;
 }
