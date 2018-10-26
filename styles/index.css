@@ -36,6 +36,17 @@
 
   }
 
+  .col-5, .col-4 {
+    padding: 1em;
+
+  }
+
+  .col-5 {
+
+    text-align: right;
+  }
+
+
   .flex-grid {
     margin-bottom: 2em;
 

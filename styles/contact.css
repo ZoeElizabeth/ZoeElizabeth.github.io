@@ -12,14 +12,26 @@
 }
 
 .fa {
-  padding-right: 1.6em;
+  padding-right: 1.45em;
 }
 
+a:link, .gitlink, .gitlink:hover {
+color:rgb(58, 58, 58)
+}
 
-.contact li, .skills li {
+.contact, .contactlink{
 padding: .3em;
 }
  
 .glyphicon-heart {
   color: red;
+}
+
+.col-5 {
+
+  text-align: right;
+}
+
+.col-4 div .col-5 div{
+margin-bottom:
 }
