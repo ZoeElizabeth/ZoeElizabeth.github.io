@@ -1,19 +1,32 @@
 .hidden {
-visibility: hidden;
+/* visibility: hidden; */
+display: none;
 }
   
   @media print {
 
-    footer, img{
+    header, ooter, img{
      display: none;
     }
     a[href]:after {
      display: none;
      visibility: hidden;
      }
-     header {
-      min-height: 0vh;
+     .hidden {
+      /* visibility: show; */
+      display: block !important;
      }
+     .col-1 {
+      display: flex;
+      flex-direction: row;
+
   
+    }
+
+    .col-4 {
+
+      padding-left: 1em;
+      padding-right: 2em;
+      }
  }
  

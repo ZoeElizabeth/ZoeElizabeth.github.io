@@ -48,6 +48,8 @@
   .col-1 {
     background: #A4C6A5;
     max-width: 17em;
+    display: flex;
+    flex-direction: column;
    
   }
   .col-2 {
@@ -64,10 +66,10 @@
     min-height: 60vh;
   }
   header {
-    background-image: url("../images/header6.png");
+    background-image: url("../images/header7.png");
     background-size:auto;
     background-repeat: no-repeat;
-    min-height: 27vh;
+    min-height: 32vh;
   }
   header, article, nav, footer {
     padding: 1em;
@@ -85,20 +87,3 @@ h1, h2, h3, h4, h5 {
 list-style: none;
   }
 
-
-  @media print {
-
-   footer, img{
-    display: none;
-   }
-   a[href]:after {
-    display: none;
-    visibility: hidden;
- }
-
- header{
- background: none;
- margin: 0;
- padding: 0
- }
-}
