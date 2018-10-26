@@ -1,0 +1,19 @@
+.hidden {
+visibility: hidden;
+}
+  
+  @media print {
+
+    footer, img{
+     display: none;
+    }
+    a[href]:after {
+     display: none;
+     visibility: hidden;
+     }
+     header {
+      min-height: 0vh;
+     }
+  
+ }
+ 

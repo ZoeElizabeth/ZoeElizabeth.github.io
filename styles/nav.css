@@ -34,3 +34,8 @@ text-align: center;
 .profilepic  {
 height: 20em;
 }
+
+.printonly {
+  text-align: center;
+  visibility: hidden;
+}

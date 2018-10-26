@@ -84,3 +84,21 @@ h1, h2, h3, h4, h5 {
   ul {
 list-style: none;
   }
+
+
+  @media print {
+
+   footer, img{
+    display: none;
+   }
+   a[href]:after {
+    display: none;
+    visibility: hidden;
+ }
+
+ header{
+ background: none;
+ margin: 0;
+ padding: 0
+ }
+}

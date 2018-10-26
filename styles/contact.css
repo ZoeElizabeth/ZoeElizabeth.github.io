@@ -16,8 +16,14 @@
   padding-right: 1.45em;
 }
 
-a:link, .gitlink, .gitlink:hover {
+a:link, .otherlink, .otherlink:hover {
 color:rgb(58, 58, 58)
+}
+
+a:link:hover, .otherlink:hover {
+font-weight: 500;
+color: #DEE9D9;
+text-decoration: none;
 }
 
 .contact, .contactlink{
@@ -25,6 +31,7 @@ padding: .3em;
 }
  
 .glyphicon-heart {
+
   color: red;
 }
 
