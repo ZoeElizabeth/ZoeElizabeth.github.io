@@ -3,12 +3,16 @@
     box-sizing: border-box; 
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
+    align-self: center;
+
   }
   body {
     display: flex;
     min-height: 100vh;
     flex-direction: row;
     margin: 0;
+    align-self: center;
+
   }
 
   .hobbies {
