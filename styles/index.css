@@ -17,6 +17,11 @@
 
   .texttitle {
     font-weight: 500;
+ 
+  }
+
+  .resumetitle {
+    margin-bottom: 1em;
   }
 
   .flex-grid {
@@ -62,9 +67,14 @@
     background-repeat: no-repeat;
     min-height: 27vh;
   }
-  header, article, nav {
+  header, article, nav, footer {
     padding: 1em;
   }
+
+  footer {
+    text-align: center;
+  }
+
 h1, h2, h3, h4, h5 {
   font-family: 'Poiret One', cursive;
 }
