@@ -8,6 +8,7 @@
 
 .glyphicon {
   padding-right: 2em;
+
  
 }
 
@@ -32,6 +33,6 @@ padding: .3em;
   text-align: right;
 }
 
-.col-4 div .col-5 div{
-margin-bottom:
+.col-4 {
+text-align: left;
 }
