@@ -28,6 +28,13 @@ margin-bottom: 2em;
   
  }
 
+ header {
+  background-image: url("../images/header7.png");
+  background-size:auto;
+  background-repeat: no-repeat;
+  min-height: 32vh;
+}
+
 .skills, .contact {
   padding: 0;
 }
@@ -35,10 +42,6 @@ margin-bottom: 2em;
 nav h3 {
 margin-top: 1.5em;
 text-align: center;
-}
-
-.profilepic  {
-height: 20em;
 }
 
 .printonly {
