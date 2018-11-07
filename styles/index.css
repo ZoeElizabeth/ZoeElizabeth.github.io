@@ -14,14 +14,7 @@
     align-self: center;
 
   }
-
-  .hobbies {
-    text-align: center;
-    margin-bottom: 1em;
-  }
-
   
-
   .experience {
 
   text-align: left;
@@ -37,8 +30,19 @@
  
   }
 
-  .resumetitle {
+  .resumetitle, .resumetitleprint {
     margin-bottom: 1em;
+    border-bottom: 1px solid #63C6C4;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .hobbies {
+    text-align: center;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #63C6C4;
+    width: 100%;
+    bottom: 0;
   }
 
   .flex-grid {
@@ -82,12 +86,7 @@
     flex: 4;
     min-height: 60vh;
   }
-  header {
-    background-image: url("../images/header7.png");
-    background-size:auto;
-    background-repeat: no-repeat;
-    min-height: 32vh;
-  }
+
   header, article, nav, footer {
     padding: 1em;
   }

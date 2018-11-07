@@ -1,8 +1,6 @@
-.hidden {
-/* visibility: hidden; */
-display: none;
-}
-  
+
+
+
   @media print {
 
     footer, img{
@@ -37,5 +35,15 @@ display: none;
       padding-left: 1em;
       padding-right: 2em;
       }
+
+      /* body {
+        height: 99%;    
+    } */
+
+    .resumetitleprint {
+
+      break-before: always;
+    }
+      
  }
  
