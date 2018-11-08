@@ -3,15 +3,14 @@
     box-sizing: border-box; 
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
-    align-self: center;
-
+    align-items: center;
   }
   body {
     display: flex;
     min-height: 100vh;
     flex-direction: row;
     margin: 0;
-    align-self: center;
+
 
   }
   
@@ -34,7 +33,7 @@
     margin-bottom: 1em;
     border-bottom: 1px solid #63C6C4;
     width: 100%;
-    bottom: 0;
+    /* bottom: 0; */
   }
 
   .hobbies {
@@ -48,8 +47,10 @@
 
   .flex-grid {
     display: flex;
-
+    align-items: flex-start;
+    margin-bottom: 2em;
   }
+
   .col {
     display: flex;
     flex-direction: column;
@@ -59,10 +60,7 @@
   }
 
 
-  .flex-grid {
-    margin-bottom: 2em;
 
-  }
 
   .resume {
     max-width: 700px;
@@ -84,9 +82,11 @@
     flex-direction: row;
   }
   .content > article {
-    flex: 4;
+    flex: 1;
     min-height: 60vh;
+
   }
+
 
   header, article, nav {
     padding: 1em;
@@ -120,6 +120,8 @@ list-style: none;
 }
 
 .projectimg {
-height: 128px;
-width:203.3px;
+height: 10em;
+
+padding-top: 1em;
+padding-bottom: 1em;
 }
