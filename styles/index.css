@@ -87,7 +87,7 @@
     min-height: 60vh;
   }
 
-  header, article, nav, footer {
+  header, article, nav {
     padding: 1em;
   }
 
@@ -103,3 +103,21 @@ h1, h2, h3, h4, h5 {
 list-style: none;
   }
 
+.gitlink {
+  margin-top: 1em;
+  padding: .2em;
+  color: white;
+  background: #63C6C4;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.gitlink:hover {
+  color: white;
+  text-decoration: line-through;
+}
+
+.projectimg {
+height: 8em;
+}
