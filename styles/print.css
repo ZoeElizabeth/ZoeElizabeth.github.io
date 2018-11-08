@@ -3,8 +3,19 @@
 
   @media print {
 
-    footer, img{
+
+
+    .gitlink, footer, img{
      display: none;
+    }
+
+    content {
+      text-align: center;
+
+    }
+
+    .hobbies, .resumetitle, .resumetitleprint {
+      border-bottom: 1px solid #000;
     }
     a[href]:after {
      display: none;
@@ -25,7 +36,7 @@
     }
 .title, .nametitle, .blurbtitle {
   text-align: center;
-  margin-top: 0;
+  margin: 0;
   /* padding-left: 0; */
 
 }
@@ -36,14 +47,14 @@
       padding-right: 2em;
       }
 
-      /* body {
-        height: 99%;    
-    } */
-
-    .resumetitleprint {
-
-      break-before: always;
+      body {
+        width: 100%;    
     }
-      
+
+    .printbreak {
+      padding: 1em;
+      page-break-before: always;
+    }
+    margin : 0;
  }
  
