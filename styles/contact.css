@@ -14,11 +14,11 @@
   padding-right: 1.45em;
 }
 
-a:link, .otherlink, .otherlink:hover {
+.contactlink, .emaillink, .otherlink, .otherlink:hover {
   color:rgb(58, 58, 58)
 }
 
-a:link:hover, .otherlink:hover {
+.contactlink:hover, .otherlink:hover, .emaillink:hover {
   color: #63C6C4;
   text-decoration: line-through;
 }
