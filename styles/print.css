@@ -3,9 +3,10 @@
 
   @media print {
 
-    html{
+    @page{
       margin: 0;
-      
+      transform: scale(0.95)
+
 
     }
 
