@@ -4,6 +4,7 @@
   @media print {
 
     @page {
+      margin-left: 5;
       margin: 0;
       zoom: 65%;
       /* width: 100%; */
