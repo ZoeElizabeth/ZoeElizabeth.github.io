@@ -1,0 +1,50 @@
+
+  * {
+    box-sizing: border-box; 
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+  }
+  
+ .title {
+
+margin-top: 8em;
+margin-left: 1em;
+margin-bottom: 2em;
+ }
+
+.nametitle {
+  display: flex;
+  font-size: 200%;
+  margin-top: 5.8em;
+  padding-left: 8.15em
+
+}
+ 
+.blurbtitle {
+  display: flex;
+  font-size: 120%;
+  margin-top: .6em;
+  padding-left: 14.2em;
+  
+ }
+
+ header {
+  background-image: url("../images/header7.png");
+  background-size:auto;
+  background-repeat: no-repeat;
+  min-height: 32vh;
+}
+
+.skills, .contact {
+  padding: 0;
+}
+
+nav h3 {
+margin-top: 1.5em;
+text-align: center;
+}
+
+.printonly {
+  text-align: center;
+  visibility: hidden;
+}
